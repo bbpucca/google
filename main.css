@@ -93,6 +93,7 @@ a:hover{
 	display: flex;
 	justify-content: space-between;
 }
+<<<<<<< HEAD
 
 #rechercher, #GDLA
 {
@@ -110,3 +111,5 @@ color: #818387;
 border: 1px solid grey;
 color: black;
 }
+=======
+>>>>>>> 6e470269fcbf616e23e588d7dfb3ac4139e3d072
