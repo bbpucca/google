@@ -1,0 +1,38 @@
+.liensEnhaut
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.centre
+{
+	margin: auto ;
+    text-align: -webkit-center;
+    width: 500px;
+}
+
+
+
+#champDeRecherche
+{
+margin-top: 2em;
+width: 500px;
+margin-bottom: 2em;
+height: 2em;
+box-shadow: 1px 1px 1px grey;
+
+}
+
+body
+{
+	min-height: 100%;
+}
+
+
+html
+{
+	height:100%;
+
+}

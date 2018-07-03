@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Google.fr</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+
+    <div class="liensEnhaut">
+            <a href="https://mail.google.com/mail/?tab=wm">Gmail</a>
+            <a href="https://www.google.fr/imghp?hl=fr&amp;tab=wi">images</a>
+            <a href="https://accounts.google.com/ServiceLogin?hl=fr&amp;passive=true&amp;continue=https://www.google.fr/">Connexion</a>
+    </div>
+
+    <div class="centre">
+        <img src="google.png">
+            <input id="champDeRecherche" type="text">
+
+        <div>
+            <button id="rechercher">Recherche Google</button>
+            <button id="GDLA">J'ai de la Chance</button>
+        </div>
+    </div>
+    <div class="bas">
+        <div class="hautDuBas">
+            <span id="france">France
+        </span></div>
+        <div class="basDuBas">
+            <div class="Gauche">
+                <a href="https://www.google.fr/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=webhp&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwjJ5r_0wILcAhUSnRQKHbJ8ACcQkdQCCAo&amp;url=https%3A%2F%2Fwww.google.fr%2Fintl%2Ffr_fr%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&amp;usg=AOvVaw2uB175PdVvu_s_Oh5IRJXX">Publicité</a>
+                <a href="https://www.google.fr/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=webhp&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwjJ5r_0wILcAhUSnRQKHbJ8ACcQktQCCAs&amp;url=https%3A%2F%2Fwww.google.fr%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&amp;usg=AOvVaw3oBerwhZw46LsPtxWHNJJA">Entreprise</a>
+                <a href="https://www.google.fr/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=webhp&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwjJ5r_0wILcAhUSnRQKHbJ8ACcQkNQCCAw&amp;url=https%3A%2F%2Fwww.google.fr%2Fintl%2Ffr_fr%2Fabout%2F%3Futm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&amp;usg=AOvVaw1Jwo2vO2kGpzOPWCuzWlrz%22%22">À propos</a>
+            </div>
+            <div class="Droite">
+                <a href="https://support.google.com/websearch?p=fr_consumer_info&amp;hl=fr&amp;fg=1">Info Consommateur</a>
+                <a href="https://www.google.fr/intl/fr_fr/policies/privacy/?fg=1">Confidentialité</a>
+                <a href="https://www.google.fr/intl/fr_fr/policies/terms/?fg=1">Condition</a>
+                <a href="https://www.google.fr/preferences?hl=fr">Paramètres</a>
+            </div>
+        </div>
+    </div>
+
+<script>
+    function googleSearch(){
+        var text = document.getElementById("champDeRecherche").value;
+        window.open(`https://www.google.com/search?q=${text}&ie=utf-8&oe=utf-8`);
+    }
+    function qwantSearch(){
+        var text = document.getElementById("champDeRecherche").value;
+        window.open(`https://www.qwant.com/?client=brz-&q=${text}`);
+    } 
+    var google = document.getElementById("rechercher")
+    var qwant = document.getElementById("GDLA")
+    google.addEventListener("click",googleSearch, false)
+    qwant.addEventListener("click",qwantSearch, false)
+    </script>
+</body></html>
