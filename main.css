@@ -10,7 +10,10 @@
 {
 	margin: auto ;
     text-align: -webkit-center;
+    align-content: center;
     width: 500px;
+    display:flex;
+    flex-direction: column;
 }
 
 
@@ -28,6 +31,9 @@ box-shadow: 1px 1px 1px grey;
 body
 {
 	min-height: 100%;
+	margin:0px;
+	display: flex;
+	flex-direction: column;
 }
 
 
